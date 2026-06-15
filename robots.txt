@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://fisiom-org.github.io/fisiom-osteopatia/sitemap.xml
