@@ -6,6 +6,9 @@ const DOMAIN = 'https://PLACEHOLDER_DOMINIO'
 
 export default defineConfig({
   base: '/',
+  ssr: {
+    noExternal: ['react-helmet-async'],
+  },
   plugins: [
     react(),
     Sitemap({
