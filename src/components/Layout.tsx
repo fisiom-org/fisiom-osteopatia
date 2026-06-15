@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import { Link, useLocation, Outlet } from 'react-router-dom'
-import { HelmetProvider } from 'react-helmet-async'
-import { ArrowRight, Phone, MessageSquare, Heart, Menu, X } from 'lucide-react'
+import { ArrowRight, Phone, Heart, Menu, X } from 'lucide-react'
 import FisiomLogo from './FisiomLogo'
 import { getGenericWhatsAppLink } from '../hooks/useWhatsApp'
 
@@ -153,14 +152,12 @@ function Footer() {
 
 export default function Layout() {
   return (
-    <HelmetProvider>
-      <div className="min-h-screen font-sans-clean text-[#423F2C] bg-[#FAF9F6] selection:bg-[#799797]/30 flex flex-col justify-between">
-        <Header />
-        <main className="flex-grow">
-          <Outlet />
-        </main>
-        <Footer />
-      </div>
-    </HelmetProvider>
+    <div className="min-h-screen font-sans-clean text-[#423F2C] bg-[#FAF9F6] selection:bg-[#799797]/30 flex flex-col justify-between">
+      <Header />
+      <main className="flex-grow">
+        <Outlet />
+      </main>
+      <Footer />
+    </div>
   )
 }

@@ -6,6 +6,9 @@ const DOMAIN = 'https://fisiom-org.github.io/fisiom-osteopatia'
 
 export default defineConfig({
   base: '/fisiom-osteopatia/',
+  resolve: {
+    dedupe: ['react', 'react-dom', 'react-helmet-async'],
+  },
   ssr: {
     noExternal: ['react-helmet-async'],
   },

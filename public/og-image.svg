@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#2C4242"/>
+  <rect x="0" y="0" width="8" height="630" fill="#C2B67A"/>
+  <rect x="1192" y="0" width="8" height="630" fill="#C2B67A"/>
+  <!-- Logo arcos -->
+  <path d="M 472,120 C 532,156 652,156 712,120 C 652,162 532,162 472,120 Z" fill="#FAF9F6"/>
+  <path d="M 472,162 C 532,126 652,126 712,162 C 652,130 532,130 472,162 Z" fill="#C2B67A" opacity="0.95"/>
+  <!-- Letras FISIOM -->
+  <g fill="#FAF9F6" font-family="Georgia, serif" font-size="72" letter-spacing="12">
+    <text x="600" y="292" text-anchor="middle">FISIOM</text>
+  </g>
+  <rect x="480" y="310" width="240" height="2" fill="#C2B67A"/>
+  <text x="600" y="360" text-anchor="middle" font-family="Georgia, serif" font-size="24" fill="#C2B67A" letter-spacing="8">OSTEOPATIA</text>
+  <!-- Tagline -->
+  <text x="600" y="440" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#FAF9F6" opacity="0.85">Equilíbrio que flui de dentro para fora.</text>
+  <!-- Cidade e profissional -->
+  <text x="600" y="510" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#799797" letter-spacing="4">CLEO SCHERER · CREFITO 82530-F · FLORIANÓPOLIS</text>
+</svg>

@@ -1,7 +1,7 @@
-import { Helmet } from 'react-helmet-async'
+import { Head } from 'vite-react-ssg'
 
 const DOMAIN = 'https://fisiom-org.github.io/fisiom-osteopatia'
-const OG_IMAGE = `${DOMAIN}/og-image.jpg`
+const OG_IMAGE = `${DOMAIN}/og-image.svg`
 
 interface SEOProps {
   title: string
@@ -15,7 +15,7 @@ export default function SEO({ title, description, path, jsonLd }: SEOProps) {
   const fullTitle = `${title} | Fisiom Osteopatia`
 
   return (
-    <Helmet>
+    <Head>
       <title>{fullTitle}</title>
       <meta name="description" content={description} />
       <link rel="canonical" href={canonical} />
@@ -38,6 +38,6 @@ export default function SEO({ title, description, path, jsonLd }: SEOProps) {
           {JSON.stringify(Array.isArray(jsonLd) ? jsonLd : [jsonLd])}
         </script>
       )}
-    </Helmet>
+    </Head>
   )
 }
