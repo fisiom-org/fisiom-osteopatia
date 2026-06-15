@@ -3,7 +3,7 @@ import { Compass, Clock, Sparkles, Activity, ArrowRight } from 'lucide-react'
 import SEO from '../components/SEO'
 import { getGenericWhatsAppLink } from '../hooks/useWhatsApp'
 
-const DOMAIN = 'https://PLACEHOLDER_DOMINIO'
+const DOMAIN = 'https://fisiom-org.github.io/fisiom-osteopatia'
 
 const localBusinessJsonLd = {
   '@context': 'https://schema.org',

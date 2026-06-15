@@ -1,6 +1,6 @@
 import { Helmet } from 'react-helmet-async'
 
-const DOMAIN = 'https://PLACEHOLDER_DOMINIO'
+const DOMAIN = 'https://fisiom-org.github.io/fisiom-osteopatia'
 const OG_IMAGE = `${DOMAIN}/og-image.jpg`
 
 interface SEOProps {

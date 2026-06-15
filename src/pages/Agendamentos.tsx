@@ -3,7 +3,7 @@ import { MapPin, Clock, MessageSquare, Phone } from 'lucide-react'
 import SEO from '../components/SEO'
 import { getGenericWhatsAppLink, getSpecificWhatsAppLink } from '../hooks/useWhatsApp'
 
-const DOMAIN = 'https://PLACEHOLDER_DOMINIO'
+const DOMAIN = 'https://fisiom-org.github.io/fisiom-osteopatia'
 
 const breadcrumb = {
   '@context': 'https://schema.org',

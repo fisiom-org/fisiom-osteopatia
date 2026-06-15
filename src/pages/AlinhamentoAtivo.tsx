@@ -3,7 +3,7 @@ import { Activity, Info, RefreshCw, Zap, ShieldAlert } from 'lucide-react'
 import SEO from '../components/SEO'
 import { bodyPoints, type BodyPartKey } from '../data/bodyPoints'
 
-const DOMAIN = 'https://PLACEHOLDER_DOMINIO'
+const DOMAIN = 'https://fisiom-org.github.io/fisiom-osteopatia'
 
 const breadcrumb = {
   '@context': 'https://schema.org',

@@ -1,7 +1,7 @@
 import { CheckCircle2 } from 'lucide-react'
 import SEO from '../components/SEO'
 
-const DOMAIN = 'https://PLACEHOLDER_DOMINIO'
+const DOMAIN = 'https://fisiom-org.github.io/fisiom-osteopatia'
 
 const breadcrumb = {
   '@context': 'https://schema.org',

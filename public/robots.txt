@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://PLACEHOLDER_DOMINIO/sitemap.xml
+Sitemap: https://fisiom-org.github.io/fisiom-osteopatia/sitemap.xml
